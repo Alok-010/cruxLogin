@@ -1,0 +1,130 @@
+body {
+  background-color: #201d47;
+  display: flex;
+  color: white;
+  font-family: Poppins;
+  display: flex;
+  justify-content: center;
+}
+.mainWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 13vh 0;
+  padding: 0 8.5vh;
+}
+.details {
+  padding-right: 20vh;
+  padding-left: 10vh;
+}
+.headings {
+  margin-bottom: 3vh;
+}
+.headings > div:first-child {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-family: 500;
+  margin-bottom: 0.5vh;
+}
+.headings > div:last-child {
+  font-size: 12px;
+  color: #6e6da1;
+}
+.headings span {
+  color: #53b9ea;
+  font-weight: 600;
+}
+.loginBtn,
+.mainBtn {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 199px;
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Poppins;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500px;
+  background: #53b9ea;
+  padding: 15px 19px 15px 19px;
+  text-decoration: none;
+  border: none;
+}
+#google {
+  margin-right: 15px;
+}
+#facebook {
+  margin-left: 15px;
+}
+.btn:hover {
+  text-decoration: none;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3vh;
+}
+.buttons img {
+  height: 16px;
+  padding-right: 15px;
+}
+.orRule {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3vh;
+}
+.or {
+  margin: 0px 10px;
+}
+.hr {
+  border-top: 1px solid #343261;
+  width: 100%;
+}
+/* Text Boxes  */
+.message-input {
+  background-color: transparent;
+  border: 1.2px solid #343261;
+  border-radius: 9px;
+  width: 100%;
+  padding: 15px 0px;
+  color: white;
+  resize: none;
+  font-family: inherit;
+  margin-bottom: 2vh;
+}
+.message-input:focus {
+  outline: none;
+}
+.message-input::placeholder {
+  color: white;
+  padding-left: 18px;
+}
+#input2{
+margin-bottom: 0;
+}
+.fPassword{
+display: flex;
+justify-content: right;
+margin-bottom: 4vh;
+}
+.fPass{
+  font-size: 14px;
+  color: #52B7E9;
+  text-decoration: none;
+}
+.mainBtn {
+  width: 100%;
+  font-size: 15px;
+  margin-top: 3vh;
+}
+.right {
+  padding-right: 10vh;
+}
+.illustration {
+  height: 65vh;
+  /* width: 100%; */
+}
